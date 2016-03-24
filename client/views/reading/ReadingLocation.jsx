@@ -40,7 +40,7 @@ ReadingLocation = React.createClass({
 
         <a className="md-button md-ink-ripple" href="/" aria-label="Menu">
           {/* Make this Roman numerals?*/}
-          Book {text[0].n_1 ? next[0].n_1 : "1"},
+          Book {text[0].n_1 ? text[0].n_1 : "1"},
           <div className="md-ripple-container"></div>
         </a>
 
